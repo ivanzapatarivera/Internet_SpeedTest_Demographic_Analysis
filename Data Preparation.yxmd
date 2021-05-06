@@ -1,0 +1,824 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>all_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="quadkey" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="avg_d_kbps" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="avg_u_kbps" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="avg_lat_ms" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="tests" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="devices" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="geometry" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="index_right" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="STATEFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="COUNTYFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="COUNTYNS" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="GEOID" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="NAMELSAD" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="LSAD" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="CLASSFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="MTFCC" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="CSAFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="CBSAFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="METDIVFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="FUNCSTAT" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="ALAND" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="AWATER" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="INTPTLAT" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="INTPTLON" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_7928_b582f56eb5f64134bf96481eb61108da_\Engine_1688_f9099a9bc0c34b0a976ed67c5183af2d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="222" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="STATEFP" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FIPS" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Homeworks\Advanced Tableau\states.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>states.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\states.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\states.csv" type="V_String" />
+            <Field name="FIPS" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\states.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber([avg_d_kbps]) / 1000" field="Average Download Mbps" size="1073741823" type="V_WString" />
+            <FormulaField expression="ToNumber([avg_u_kbps]) / 1000" field="Average Upload Mbps" size="1073741823" type="V_WString" />
+            <FormulaField expression="TrimLeft([GEOID],'0')" field="County FIPS" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Average Download Mbps = ToNumber([avg_d_kbps]) / 1000
+Average Upload Mbps = ToNu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ruralurbancodes2013.xls
+Query=`County_Details`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+            <Field name="State" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+            <Field name="Population_2010" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="Double" />
+            <Field name="RUCC_2013" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="Double" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ruralurbancodes2013.xls
+Query=`Classifications`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`" type="Double" />
+            <Field name="Classification" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`" type="V_WString" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_7928_b582f56eb5f64134bf96481eb61108da_\Engine_1688_dae3fe491e014ee7a9d6deb44330122f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TrimRight([County_Name],&quot;County&quot;)" field="County_Name" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[County_Name = TrimRight([County_Name],"County")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="462" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"FIPS","State","County_Name","Population_2010","RUCC_2013","Description","Code","Classification","Right_Description"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="222" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RUCC_2013" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Description" selected="True" rename="Right_Description" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="834" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\county_demographics.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>county_demographics.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="True" rename="Test ID" />
+            <SelectField field="quadkey" selected="True" rename="Quadkey" />
+            <SelectField field="avg_d_kbps" selected="True" rename="Average Download Kbps" />
+            <SelectField field="avg_u_kbps" selected="True" rename="Average Upload Kbps" />
+            <SelectField field="avg_lat_ms" selected="True" rename="Average Latency in ms" />
+            <SelectField field="tests" selected="True" rename="Tests Performed" />
+            <SelectField field="devices" selected="True" rename="Devices" />
+            <SelectField field="geometry" selected="True" rename="Geometry" />
+            <SelectField field="index_right" selected="True" rename="Index Right" />
+            <SelectField field="STATEFP" selected="True" rename="State FP" />
+            <SelectField field="COUNTYFP" selected="True" rename="County FP" />
+            <SelectField field="COUNTYNS" selected="True" rename="County NS" />
+            <SelectField field="GEOID" selected="True" rename="GeoID" />
+            <SelectField field="NAME" selected="True" rename="County Name" />
+            <SelectField field="LSAD" selected="True" />
+            <SelectField field="CLASSFP" selected="True" rename="Class FP" />
+            <SelectField field="MTFCC" selected="True" />
+            <SelectField field="CSAFP" selected="True" />
+            <SelectField field="CBSAFP" selected="True" />
+            <SelectField field="METDIVFP" selected="True" />
+            <SelectField field="FUNCSTAT" selected="True" />
+            <SelectField field="ALAND" selected="True" />
+            <SelectField field="AWATER" selected="True" />
+            <SelectField field="INTPTLAT" selected="True" />
+            <SelectField field="INTPTLON" selected="True" />
+            <SelectField field="Right_Name" selected="True" rename="State" />
+            <SelectField field="Postal Code" selected="True" />
+            <SelectField field="Average Download Mbps" selected="True" />
+            <SelectField field="Average Upload Mbps" selected="True" />
+            <SelectField field="County FIPS" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\DataByState.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DataByState.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>lagdp1220.xlsx
+Query=`CountyClassGDP`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Population_2010" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Census Code" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Classification" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="State" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Postal Code" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Column3" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="GDP" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPS" selected="True" rename="County FIPS" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Postal Code" selected="True" />
+            <SelectField field="County_Name" selected="True" rename="County" />
+            <SelectField field="Population_2010" selected="True" />
+            <SelectField field="Census Code" selected="True" />
+            <SelectField field="Classification" selected="True" />
+            <SelectField field="Description" selected="True" />
+            <SelectField field="Column3" selected="False" />
+            <SelectField field="GDP" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>lagdp1220.xlsx
+Query=`CountyClassGDP`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Population_2010" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Census Code" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Classification" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="State" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Postal Code" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Column3" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="GDP" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPS" selected="True" rename="County FIPS" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Postal Code" selected="True" />
+            <SelectField field="County_Name" selected="True" rename="County" />
+            <SelectField field="GDP" selected="True" rename="GDP by County" />
+            <SelectField field="Population_2010" selected="False" />
+            <SelectField field="Census Code" selected="False" />
+            <SelectField field="Classification" selected="False" />
+            <SelectField field="Description" selected="False" />
+            <SelectField field="Column3" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="354" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\rural_urban.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>rural_urban.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="354" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\gdp_county.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>gdp_county.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPS" selected="True" />
+            <SelectField field="State" selected="True" rename="Postal Code" />
+            <SelectField field="County_Name" selected="True" rename="County" />
+            <SelectField field="Population_2010" selected="True" rename="Population" />
+            <SelectField field="Code" selected="True" rename="Census Code" />
+            <SelectField field="Classification" selected="True" />
+            <SelectField field="Right_Description" selected="True" rename="Description" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="714" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TrimLeft([FIPS], '0')" field="County FIPS" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[County FIPS = TrimLeft([FIPS], '0')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="18" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output26" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data Preparation</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
