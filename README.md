@@ -21,4 +21,4 @@ Public Tableau URL [https://tabsoft.co/3h4BWv6](https://tabsoft.co/3h4BWv6)
 
 ### Screenshot
 
-![Getting_Started](screenshot.png)
+![Getting_Started](screenshot.PNG)
