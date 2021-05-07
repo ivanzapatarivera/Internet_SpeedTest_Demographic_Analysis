@@ -1,14 +1,174 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2021.1">
   <Nodes>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="1032" width="132" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="204" g="204" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1278" y="696" width="132" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="213" g="170" b="170" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1110" y="336" width="132" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="191" b="191" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="930" y="168" width="132" height="1056" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="219" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="336" width="132" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="570" y="168" width="132" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="217" g="255" b="217" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="168" width="132" height="1056" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="170" g="227" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="636" width="132" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="204" g="204" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="90" y="150" />
+        <Position x="54" y="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Capstone\Capstone_2\all_data.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -27,73 +187,42 @@
           <DefaultAnnotationText>all_data.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Field_1" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="quadkey" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="avg_d_kbps" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="avg_u_kbps" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="avg_lat_ms" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="tests" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="devices" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="geometry" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="index_right" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="STATEFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="COUNTYFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="COUNTYNS" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="GEOID" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="NAME" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="NAMELSAD" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="LSAD" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="CLASSFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="MTFCC" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="CSAFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="CBSAFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="METDIVFP" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="FUNCSTAT" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="ALAND" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="AWATER" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="INTPTLAT" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
-            <Field name="INTPTLON" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\all_data.csv" type="V_String" />
+            <Field name="Field_1" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="quadkey" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="avg_d_kbps" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="avg_u_kbps" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="avg_lat_ms" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="tests" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="devices" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="geometry" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="index_right" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="STATEFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="COUNTYFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="COUNTYNS" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="GEOID" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="NAMELSAD" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="LSAD" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="CLASSFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="MTFCC" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="CSAFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="CBSAFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="METDIVFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="FUNCSTAT" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="ALAND" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="AWATER" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="INTPTLAT" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
+            <Field name="INTPTLON" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\all_data.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="3">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="222" y="114" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_7928_b582f56eb5f64134bf96481eb61108da_\Engine_1688_f9099a9bc0c34b0a976ed67c5183af2d_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="222" y="186" />
+        <Position x="426" y="180" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -124,12 +253,12 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="90" y="234" />
+        <Position x="54" y="228" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Homeworks\Advanced Tableau\states.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Capstone\Capstone_2\states.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -148,14 +277,11 @@
           <DefaultAnnotationText>states.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Name" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\states.csv" type="V_String" />
-            <Field name="Postal Code" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\states.csv" type="V_String" />
-            <Field name="FIPS" size="254" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\states.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\states.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\states.csv" type="V_String" />
+            <Field name="FIPS" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\states.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -163,7 +289,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="342" y="186" />
+        <Position x="606" y="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -184,12 +310,12 @@ Average Upload Mbps = ToNu...</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="90" y="318" />
+        <Position x="54" y="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`County_Details`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -201,17 +327,14 @@ Average Upload Mbps = ToNu...</DefaultAnnotationText>
 Query=`County_Details`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
-            <Field name="State" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
-            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
-            <Field name="Population_2010" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="Double" />
-            <Field name="RUCC_2013" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="Double" />
-            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+            <Field name="State" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
+            <Field name="Population_2010" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`County_Details`" type="Double" />
+            <Field name="RUCC_2013" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`County_Details`" type="Double" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`County_Details`" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -219,12 +342,12 @@ Query=`County_Details`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="90" y="402" />
+        <Position x="54" y="396" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`Classifications`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <NoProgress>False</NoProgress>
@@ -236,50 +359,19 @@ Query=`County_Details`</DefaultAnnotationText>
 Query=`Classifications`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Code" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`" type="Double" />
-            <Field name="Classification" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`" type="V_WString" />
-            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\ruralurbancodes2013.xls|||`Classifications`" type="V_WString" />
+            <Field name="Code" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`Classifications`" type="Double" />
+            <Field name="Classification" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`Classifications`" type="V_WString" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\ruralurbancodes2013.xls|||`Classifications`" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="10">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="834" y="354" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_7928_b582f56eb5f64134bf96481eb61108da_\Engine_1688_dae3fe491e014ee7a9d6deb44330122f_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="342" y="354" />
+        <Position x="606" y="348" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -298,7 +390,7 @@ Query=`Classifications`</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings>
-        <Position x="462" y="354" />
+        <Position x="786" y="348" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -321,15 +413,12 @@ Query=`Classifications`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Cleanse.yxmc" />
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="222" y="354" />
+        <Position x="426" y="348" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -358,38 +447,9 @@ Query=`Classifications`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
-    <Node ToolID="19">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="834" y="426" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\county_demographics.csv</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <LineEndStyle>CRLF</LineEndStyle>
-            <Delimeter>,</Delimeter>
-            <ForceQuotes>False</ForceQuotes>
-            <HeaderRow>True</HeaderRow>
-            <CodePage>28591</CodePage>
-            <WriteBOM>True</WriteBOM>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>county_demographics.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-    </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="462" y="186" />
+        <Position x="966" y="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -437,43 +497,14 @@ Query=`Classifications`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="23">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="558" y="186" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\DataByState.csv</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <LineEndStyle>CRLF</LineEndStyle>
-            <Delimeter>,</Delimeter>
-            <ForceQuotes>False</ForceQuotes>
-            <HeaderRow>True</HeaderRow>
-            <CodePage>28591</CodePage>
-            <WriteBOM>True</WriteBOM>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>DataByState.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-    </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="90" y="498" />
+        <Position x="54" y="480" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -485,21 +516,18 @@ Query=`Classifications`</DefaultAnnotationText>
 Query=`CountyClassGDP`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Population_2010" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
-            <Field name="Census Code" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
-            <Field name="Classification" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="State" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Postal Code" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Column3" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="GDP" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Population_2010" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Census Code" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Classification" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="State" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Postal Code" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Column3" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="GDP" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -507,7 +535,7 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="222" y="498" />
+        <Position x="966" y="480" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -537,12 +565,12 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="90" y="594" />
+        <Position x="54" y="576" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -554,21 +582,18 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
 Query=`CountyClassGDP`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Population_2010" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
-            <Field name="Census Code" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
-            <Field name="Classification" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Description" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="State" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Postal Code" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="Column3" size="255" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
-            <Field name="GDP" source="File: D:\TEKSystems\Homeworks\Advanced Tableau\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="FIPS" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="County_Name" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Population_2010" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Census Code" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
+            <Field name="Classification" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Description" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="State" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Postal Code" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="Column3" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="V_String" />
+            <Field name="GDP" source="File: D:\TEKSystems\Capstone\Capstone_2\lagdp1220.xlsx|||`CountyClassGDP`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -576,7 +601,7 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="222" y="594" />
+        <Position x="966" y="576" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -604,67 +629,9 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="29">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="354" y="498" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\rural_urban.csv</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <LineEndStyle>CRLF</LineEndStyle>
-            <Delimeter>,</Delimeter>
-            <ForceQuotes>False</ForceQuotes>
-            <HeaderRow>True</HeaderRow>
-            <CodePage>28591</CodePage>
-            <WriteBOM>True</WriteBOM>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>rural_urban.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-    </Node>
-    <Node ToolID="30">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="354" y="594" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\gdp_county.csv</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <LineEndStyle>CRLF</LineEndStyle>
-            <Delimeter>,</Delimeter>
-            <ForceQuotes>False</ForceQuotes>
-            <HeaderRow>True</HeaderRow>
-            <CodePage>28591</CodePage>
-            <WriteBOM>True</WriteBOM>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>gdp_county.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-    </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="582" y="354" />
+        <Position x="966" y="348" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -691,7 +658,7 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="714" y="354" />
+        <Position x="1146" y="348" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -708,12 +675,1065 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="660" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>poverty_levels.xls
+Query=`PovertyTable`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPStxt" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="V_WString" />
+            <Field name="Stabr" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="V_WString" />
+            <Field name="Area_name" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="V_WString" />
+            <Field name="Rural-urban_Continuum_Code_2003" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="V_WString" />
+            <Field name="Urban_Influence_Code_2003" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="Rural-urban_Continuum_Code_2013" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="V_WString" />
+            <Field name="Urban_Influence_Code_2013" size="255" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="V_WString" />
+            <Field name="POVALL_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LBALL_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UBALL_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="PCTPOVALL_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LBALLP_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UBALLP_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="POV017_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LB017_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UB017_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="PCTPOV017_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LB017P_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UB017P_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="POV517_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LB517_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UB517_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="PCTPOV517_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LB517P_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UB517P_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="MEDHHINC_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LBINC_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UBINC_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="POV04_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LB04_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UB04_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="PCTPOV04_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90LB04P_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+            <Field name="CI90UB04P_2019" source="File: D:\TEKSystems\Capstone\Capstone_2\poverty_levels.xls|||`PovertyTable`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="660" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPStxt" selected="True" rename="FIPS" />
+            <SelectField field="Stabr" selected="True" rename="Postal Code" />
+            <SelectField field="Area_name" selected="False" rename="County Name" />
+            <SelectField field="CI90LBALL_2019" selected="True" rename="Population at Poverty Level (90 Confidence)" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="744" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Capstone\Capstone_2\counties.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>counties.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="STATEFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="COUNTYFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="COUNTYNS" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="GEOID" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="NAMELSAD" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="LSAD" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="CLASSFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="MTFCC" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="CSAFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="CBSAFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="METDIVFP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="FUNCSTAT" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="ALAND" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="AWATER" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="INTPTLAT" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="INTPTLON" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+            <Field name="geometry" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\counties.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="426" y="672" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FIPS" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="GEOID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_FIPS" selected="True" input="Left_" />
+                <SelectField field="Left_Population at Poverty Level (90 Confidence)" selected="True" input="Left_" />
+                <SelectField field="Right_STATEFP" selected="True" input="Right_" />
+                <SelectField field="Right_GEOID" selected="True" input="Right_" />
+                <SelectField field="Right_NAME" selected="True" input="Right_" />
+                <SelectField field="Left_State Name" selected="True" input="Left_" />
+                <SelectField field="Left_County Name" selected="True" input="Left_" />
+                <SelectField field="Left_FIPStxt" selected="True" input="Left_" />
+                <SelectField field="Left_Stabr" selected="True" input="Left_" />
+                <SelectField field="Left_Area_name" selected="True" input="Left_" />
+                <SelectField field="Left_CI90LBALL_2019" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="966" y="672" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPS" selected="False" />
+            <SelectField field="NAME" selected="True" rename="County Name" />
+            <SelectField field="State Name" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="828" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>nst-est2019-alldata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SUMLEV" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="REGION" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DIVISION" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="CENSUS2010POP" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="ESTIMATESBASE2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="POPESTIMATE2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NPOPCHG_2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="BIRTHS2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DEATHS2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NATURALINC2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="INTERNATIONALMIG2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="DOMESTICMIG2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="NETMIG2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RESIDUAL2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RBIRTH2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDEATH2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNATURALINC2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RINTERNATIONALMIG2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RDOMESTICMIG2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2011" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2012" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2014" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2015" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2016" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2017" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2018" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+            <Field name="RNETMIG2019" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\nst-est2019-alldata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="828" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="STATE" selected="True" rename="State FP" />
+            <SelectField field="NAME" selected="True" rename="State" />
+            <SelectField field="ESTIMATESBASE2010" selected="True" rename="Population" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1314" y="708" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="STATEFP" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="State FP" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="552" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Selecting, renaming, and organizing needed columns from dataset</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="84" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Performing data joins between tables</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="570" y="84" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Creating formulas to create columns with data as desired</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="252" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Cleansing data to remove leading and trailing whitespace</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="930" y="84" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Selecting, renaming, and organizing needed columns from dataset</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1110" y="252" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Creating formulas to create columns with data as desired</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1278" y="612" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Performing data joins between tables</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1470" y="54" width="156" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Created Data Prepared files</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="1044" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Fixed_Broadband_Deployment_Data__June_2020_V1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Logical Record Number" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Provider ID" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="FRN" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Provider Name" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="DBA Name" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Holding Company Name" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Holding Company Number" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Holding Company Final" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Census Block FIPS Code" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Technology Code" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Consumer" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Max Advertised Downstream Speed (mbps)" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Max Advertised Upstream Speed (mbps)" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+            <Field name="Business" size="254" source="File: C:\Users\falen\Desktop\Fixed_Broadband_Deployment_Data__June_2020_V1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="210" y="1044" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Census Block FIPS Code], 5)" field="FIPS" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[FIPS = Left([Census Block FIPS Code], 5)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="1176" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Capstone\Capstone_2\county_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>county_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="State" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="County_Name" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="Population_2010" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="RUCC_2013" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="Description" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="Code" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="Classification" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+            <Field name="Right_Description" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\county_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="426" y="1164" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FIPS" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FIPS" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_FIPS" selected="True" rename="Right_FIPS" input="Right_" />
+                <SelectField field="Right_State" selected="True" rename="Right_State" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1314" y="948" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Technology Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Technology Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Technology Code" selected="True" rename="Right_Technology Code" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="936" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\TEKSystems\Capstone\Capstone_2\technology_codes.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>technology_codes.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Technology Code" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\technology_codes.csv" type="V_String" />
+            <Field name="Technology of Transmission" size="254" source="File: D:\TEKSystems\Capstone\Capstone_2\technology_codes.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="966" y="1164" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Logical Record Number" selected="True" rename="Client No" />
+            <SelectField field="DBA Name" selected="True" rename="Provider" />
+            <SelectField field="State" selected="True" rename="Postal Code" />
+            <SelectField field="Technology Code" selected="True" />
+            <SelectField field="Consumer" selected="True" />
+            <SelectField field="Max Advertised Downstream Speed (mbps)" selected="True" />
+            <SelectField field="Max Advertised Upstream Speed (mbps)" selected="True" />
+            <SelectField field="Business" selected="True" />
+            <SelectField field="FIPS" selected="True" />
+            <SelectField field="Right_State" selected="True" rename="State" />
+            <SelectField field="County_Name" selected="True" rename="County Name" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="948" width="132" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Creating formulas to create columns with data as desired</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor r="0" g="64" b="128" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1468" y="131" width="157" height="948" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>CSV Files</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1494" y="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\DataByState.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DataByState.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1494" y="348" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\county_demographics.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>county_demographics.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1494" y="480" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\rural_urban.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>rural_urban.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1494" y="576" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">D:\TEKSystems\Homeworks\Advanced Tableau\gdp_county.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>gdp_county.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1494" y="708" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">D:\TEKSystems\Capstone\Capstone_2\poverty_by_county.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>poverty_by_county.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1493" y="828" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">D:\TEKSystems\Capstone\Capstone_2\state_population.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>state_population.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1494" y="948" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">D:\TEKSystems\Capstone\Capstone_2\customers_and_providers.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>customers_and_providers.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
   </Nodes>
   <Connections>
-    <Connection>
-      <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="3" Connection="Input" />
-    </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
       <Destination ToolID="4" Connection="Left" />
@@ -776,18 +1796,78 @@ Query=`CountyClassGDP`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="32" Connection="Output" />
-      <Destination ToolID="10" Connection="Input" />
+      <Destination ToolID="19" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="32" Connection="Output" />
-      <Destination ToolID="19" Connection="Input" />
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="39" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="48" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="72" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Join" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Join" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="73" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="73" Connection="Right" />
     </Connection>
   </Connections>
   <Properties>
     <Memory default="True" />
     <GlobalRecordLimit value="0" />
     <TempFiles default="True" />
-    <Annotation on="False" includeToolName="False" />
+    <Annotation on="True" includeToolName="True" />
     <ConvErrorLimit value="10" />
     <ConvErrorLimit_Stop value="False" />
     <CancelOnError value="False" />
